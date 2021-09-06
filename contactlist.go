@@ -10,7 +10,7 @@ type Contact struct{
 	Name string
 	Number int
 }
-
+	
 func (c Contact) DisplayPrivate(){
 		fmt.Println(c.Name)
 		fmt.Println(c.Number)
