@@ -17,3 +17,16 @@ if err := json.Unmarshal([]byte(input), &val); err != nil {
  - https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html
  - https://medium.com/@dotronglong/interface-naming-convention-in-golang-f53d9f471593
  - https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go
+
+
+# function closure 
+So go also supports function inside function, (nested function).
+the function returns a function so it should be called
+
+also while calling inner function it has acces to all vars of outer,
+so can increamet it
+check day5.md
+
+## References
+- https://www.youtube.com/watch?v=Sg4-DztnkPk&ab_channel=TechiePremAseem
+- https://www.calhoun.io/5-useful-ways-to-use-closures-in-go/
