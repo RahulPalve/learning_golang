@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"encoding/json"
+	"strconv"
 )
 
 type Contact struct{
@@ -14,6 +15,10 @@ type Contact struct{
 func (c Contact) DisplayPrivate(){
 		fmt.Println(c.Name)
 		fmt.Println(c.Number)
+}
+
+func (c Contact) String() string{
+	return c.Name+":"+strconv.Itoa(c.Number)
 }
 
 func main(){
@@ -29,7 +34,9 @@ func main(){
 	json.Unmarshal(barr, &contact_list)
 
 	for _, v := range(contact_list){
-		v.DisplayPrivate()
+		fmt.Println(v)
 	}
+
+	
 
 }
