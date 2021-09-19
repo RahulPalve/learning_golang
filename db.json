@@ -1,0 +1,38 @@
+{
+    "Users": [
+        {
+            "Username": "crik12",
+            "Password": "123ert"
+        },
+        {
+            "Username": "rahul",
+            "Password": "rahpal"
+        },
+        {
+            "Username": "markzuck",
+            "Password": "facebooksucks"
+        }
+    ],
+    "Notes":[
+        {
+            "Title": "Untitled",
+            "Description": "Despacito alsma bisba sito",
+            "User" : "crik12"
+        },
+        {
+            "Title": "Why to not?",
+            "Description": " I dont know that?",
+            "User" : "markzuck"
+        },
+        {
+            "Title": "Cricket Logic",
+            "Description": "Captain change kohli",
+            "User" : "crik12"
+        },
+        {
+            "Title": "",
+            "Description": "go is love",
+            "User" : "rahul"
+        }
+    ]
+}
