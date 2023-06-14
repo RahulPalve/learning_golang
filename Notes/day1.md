@@ -19,3 +19,5 @@ module
 ---- package_file1.go (this files should have `package custom_package`
 ---- package_file2.go
 ```
+
+the way you use that package in main file is, <module_name>/..path_to_pkg/<package_name> rememner module name is one we used while creating go mod file.
